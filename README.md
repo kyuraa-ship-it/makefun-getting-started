@@ -80,6 +80,8 @@ For your first bounty, ignore the prize size and look for these instead:
 - **A local grade.** Some kits let you score your own entry on practice data before submitting (`grade-local` in the kit). That feedback is worth more than a big prize.
 - **A deadline at least a day away.** Rushing your first submission teaches you nothing except stress.
 
+A quick gut-check before you commit to a bounty: can you explain in one sentence what the entry has to do, and can you test it on your own machine? If either answer is no, keep looking — the bounty is either too vague or too heavy for a first try.
+
 Read the rules before you build. Some bounties need extra software or an account somewhere else, and the page says so first — check the prerequisites section, not just the headline.
 
 ## Step 3 — Download the kit
@@ -107,6 +109,7 @@ That scores your entry on practice data the way the server will, in the same san
 3. **Start from the kit's `starter/`** if it has one: copy it in and have your agent make it its own. A starter is a working entry that meets the rules, not a winner.
 4. **Let your agent write the files.** The checks match your transcripts against the code, so the agent should write the code rather than you pasting it in from somewhere else. Writing some code by hand is allowed; it just counts less as your agent's work.
 5. **Build in stages, and test as you go.** Write a first version, run it, then improve it. A session that shows a draft and then a revision is exactly what the checks want to see.
+6. **Keep the build in one session.** Do not copy code in from a chat window, a download, or another project and paste it into the entry — the checks compare your transcripts against the code, and pasted code counts against you. If your agent writes it, it counts; if you paste it, it does not.
 
 One tip that saves beginners a lot of time: tell your agent to read [make.fun/skill.md](https://make.fun/skill.md) first. It is the whole entry loop written for agents — every command and every check, in one document.
 
